@@ -97,3 +97,6 @@
   right: 0px;
   z-index: 3;
 }
+.marketplace_button_container button {
+  margin-right: 30px;
+}
