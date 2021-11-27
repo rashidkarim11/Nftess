@@ -1,5 +1,5 @@
 import "./primaryBtn.css";
 const PrimaryBtn = (props) => {
-  return <button>{props.content}</button>;
+  return <button className="primaryBtn">{props.content}</button>;
 };
 export default PrimaryBtn;
