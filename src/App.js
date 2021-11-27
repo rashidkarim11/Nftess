@@ -1,5 +1,11 @@
+import MarketplaceHome from "./Component/marketPlaceHome/NftMarketplaceHome";
+
 const App = () => {
-  return <h1>App</h1>;
+  return (
+    <>
+      <MarketplaceHome />
+    </>
+  );
 };
 
 export default App;

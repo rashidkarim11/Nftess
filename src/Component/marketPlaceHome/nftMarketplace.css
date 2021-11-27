@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+.marketplace_mainDiv_container {
+  position: absolute;
+  height: 704px;
+  left: 0px;
+  top: 0px;
+  background: #0099bf;
+}
+.marketplace_mainDiv_container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1.5fr 1fr;
+}
+.marketplace_details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.marketplace_details {
+  width: 545px;
+}
+.marketplace_button_container {
+  display: inherit;
+  align-content: flex-start;
+  width: 545px;
+}
+.marketplace_mainTitle {
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 77px;
+  letter-spacing: 0.11em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+}
+.marketplace_subTitle {
+  font-family: Mulish;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.11em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+}
+.marketplace_title {
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0.11em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+}
+.marketplace_paragraph {
+  width: 432px;
+  height: 136px;
+  font-family: Mulish;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  margin-top: 8px;
+}
+.marketplace_subDiv_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marketplace_image_container {
+  position: relative;
+  width: 233px;
+  height: 439px;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+
+  background-color: #ffffff;
+}
+.marketplace_shadowBox {
+  filter: drop-shadow(2px 4px 7px rgba(255, 255, 255, 0.8));
+}
+.marketplace_primaryImg {
+  position: absolute;
+  top: 37px;
+  right: 10px;
+  z-index: 2;
+}
+.marketplace_secondaryImg {
+  position: absolute;
+  top: 237px;
+  right: 0px;
+  z-index: 3;
+}
