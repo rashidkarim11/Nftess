@@ -3,7 +3,6 @@ html body {
   margin: 0;
 }
 .marketplace_mainDiv_container {
- 
   height: 44em;
   left: 0px;
   top: 0px;
@@ -26,6 +25,7 @@ html body {
   display: inherit;
   align-content: flex-start;
   width: 34.0625em;
+  margin-top: 30px;
 }
 .marketplace_mainTitle {
   font-family: Mulish;
