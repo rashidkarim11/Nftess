@@ -1,5 +1,5 @@
-import NftMarketplaceHome from "./component/marketPlaceHome/NftMarketplaceHome";
-import WalletModal from "./component/Modal";
+import NftMarketplaceHome from "./Component/marketPlaceHome/NftMarketplaceHome"
+import WalletModal from "./Component/Modal";
 
 const App = () => {
   return (

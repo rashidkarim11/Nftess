@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function WalletModal() {
+const WalletModal=()=> {
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);
 
@@ -92,3 +92,4 @@ export default function WalletModal() {
     </div>
   );
 }
+export default WalletModal;
