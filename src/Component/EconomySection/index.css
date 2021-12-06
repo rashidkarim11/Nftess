@@ -1,4 +1,4 @@
-.container{
+.containerEconomy{
     display: grid;
     grid-template-columns: auto auto;
     margin: 50px auto;
@@ -56,7 +56,7 @@
   cursor: pointer;
 }
 @media (max-width: 650px) {
-    .container{
+    .containerEconomy{
         grid-template-columns: 1fr;
     }
     /* .img_cont{

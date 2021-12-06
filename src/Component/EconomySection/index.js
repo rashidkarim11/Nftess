@@ -5,7 +5,7 @@ import one from "../../Asset/MarketplaceHome/one.jpg"
 function Card() {
     return (
         <div>
-            <div className='container'>
+            <div className='containerEconomy'>
             <div className='img_cont'>
                 <img src={one} alt="image here"/>
             </div>
