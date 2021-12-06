@@ -16,7 +16,7 @@ const Header = () => {
 
             <div className={`navBar ${Click?'':'block'}` }>
                 <ul className="navItems">
-                    <li><Link to="/home">Home</Link></li>
+                    <li><Link to="/">Home</Link></li>
                     <li><Link to="/artwork">Artworks</Link></li>
                     <li><Link to="/browse">Browse</Link></li>
                     <li><Link to="/shop">Shop</Link></li>
