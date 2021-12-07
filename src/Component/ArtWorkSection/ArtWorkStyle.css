@@ -4,6 +4,11 @@
   justify-content: center;
   margin: 90px 0 50px 0;
 }
+.nft_card_img_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .artwork_title {
   font-family: Mulish;
   font-size: 36px;
